@@ -30,6 +30,6 @@ func main() {
 	flag.StringVar(&search, "substr", "", "Search query")
 
 	flag.Parse()
-	fmt.Println(text, search)
+
 	fmt.Println(parseTest(text, search))
 }
